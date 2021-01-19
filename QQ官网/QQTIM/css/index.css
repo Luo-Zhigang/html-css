@@ -1,0 +1,411 @@
+/*============reset css===========*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    font-weight: normal;
+    color: #666;
+    font-size: 14px;
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI",sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #979797;
+    text-decoration: none;
+}
+/*============model css===========*/
+.qq_nav{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/nav_bg.png") repeat-x;
+}
+.qq_nav .wrapper{
+    height: 75px;
+    width: 1080px;
+    margin: 0 auto;
+}
+.qq_nav .wrapper .logo{
+    float: left;
+    width: 100px;
+    height: 75px;
+    background: url("../images/nav_brand.png") no-repeat center center;
+}
+.qq_nav .wrapper .nav{
+    float: left;
+}
+.qq_nav .wrapper .nav li{
+    float: left;
+    margin-left: 25px;
+}
+.qq_nav .wrapper .nav li a{
+    height: 75px;
+    line-height: 75px;
+    padding: 0 24px;
+    font-size: 18px;
+    display: block;
+    color: #000000;
+}
+.qq_nav .wrapper .nav li a.active,
+.qq_nav .wrapper .nav li a:hover{
+    background: #12b7f5;
+}
+
+.qq_nav .wrapper .register{
+    float: right;
+    height: 36px;
+    width: 96px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    background: #12b7f5;
+    color: #fff;
+    border-radius: 18px;
+    margin-top:19px;
+}
+.qq_nav .wrapper .other{
+    float: right;
+    width: 250px;
+    height: 75px;
+}
+.qq_nav .wrapper .other ul{
+    float: right;
+}
+.qq_nav .wrapper .other ul li{
+    float: left;
+    height: 75px;
+    margin-left: 25px;
+    line-height: 75px;
+}
+.qq_nav .wrapper .other ul li a{
+    color: #000000;
+}
+.qq_banner{
+    padding-top: 150px;
+    height: 880px;
+    background: url("../images/banner-bg.jpg") no-repeat center top;
+}
+.qq_banner img{
+    display: block;
+    margin: 20px auto 0;
+}
+.qq_banner img:last-child{
+    width: 100%;
+    /*自适应  等比例缩放  图片有这个特殊效果  */
+}
+.qq_sound h1{
+    height: 300px;
+    background: url("../images/sound-text.png") no-repeat center/cover;
+    text-indent: -1000px;
+}
+.qq_sound .bg{
+    height: 500px;
+    background: url("../images/sound-bg.jpg") no-repeat center/cover;
+}
+.qq_sound .content{
+    height: 510px;
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+.qq_sound .content .iphone{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: -189px;
+    left: 0;
+    background: url("../images/sound-phone.png") center top/cover;
+}
+.qq_sound .content .communication{
+    float: right;
+    padding-top: 80px;
+    width: 500px;
+    font-size: 40px;
+    text-align: right;
+}
+.qq_sound .content .qq{
+    float: right;
+    width: 500px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: right;
+    opacity: 0.6;
+}
+.qq_sound .content .more{
+    width: 500px;
+    float: right;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 15px;
+}
+.qq_sound .content .more a{
+    color: #12b7f5;
+}
+.qq_sound .content ul{
+    margin-top: 65px;
+    float: right;
+    width: 500px;
+    height: 46px;
+    background: url("../images/li_bg.png") no-repeat 193px center;
+}
+.qq_sound .content ul li{
+    text-align: center;
+    padding-top: 70px;
+    float: right;
+    color: #a0a0a0;
+    border-right: 1px solid #e9e9e9;
+}
+.qq_sound .content .f1{
+    border: none;
+    width: 80px;
+}
+.qq_sound .content .f2{
+    width: 134px;
+}
+.qq_sound .content .f3{
+    width: 149px;
+}
+.qq_file .bg{
+    height: 520px;
+    background: url("../images/file-bg.jpg") no-repeat center top/cover;
+}
+.qq_file .content{
+    padding-top: 100px;
+    height: 500px;
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+.qq_file .content .mac{
+    width: 597px;
+    height: 330px;
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    background: url("../images/file-mac.png") no-repeat center top/cover;
+}
+.qq_file .content .communication{
+    float: left;
+    width: 500px;
+    font-size: 50px;
+    text-align: left;
+}
+.qq_file .content .qq{
+    float: left;
+    width: 500px;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: left;
+    opacity: 0.6;
+}
+.qq_file .content .more{
+    width: 500px;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15px;
+}
+.qq_file .content .more a{
+    color: #12b7f5;
+}
+.qq_file .content ul{
+    margin-top: 60px;
+    float: left;
+    width: 500px;
+    height: 55px;
+    background: url("../images/flie-li.png") no-repeat 2px center;
+}
+.qq_file .content ul li{
+    padding-top: 70px;
+    float: left;
+    color: #a0a0a0;
+    border-right: 1px solid #e9e9e9;
+}
+.qq_file .content .f1{
+    width: 90px;
+    text-align: left;
+    text-indent: 5px;
+}
+.qq_file .content .f2{
+    text-align: center;
+    width: 115px;
+}
+.qq_file .content .f3{
+    width: 105px;
+    text-align: center;
+    border: none;
+}
+
+.qq_interest .bg{
+    height: 500px;
+    background: url("../images/interest-bg.jpg") no-repeat center/cover;
+}
+.qq_interest .content{
+    height: 510px;
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+.qq_interest .content .iphone{
+    width: 340px;
+    height: 506px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: url("../images/interest-phone.png") center top/cover;
+}
+.qq_interest .content .communication{
+    float: right;
+    padding-top: 80px;
+    width: 500px;
+    font-size: 50px;
+    text-align: right;
+}
+.qq_interest .content .qq{
+    float: right;
+    width: 500px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: right;
+    opacity: 0.6;
+}
+.qq_interest .content .more{
+    width: 500px;
+    float: right;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 15px;
+}
+.qq_interest .content .more a{
+    color: #12b7f5;
+}
+.qq_interest .content ul{
+    margin-top: 65px;
+    float: right;
+    width: 500px;
+    height: 46px;
+    background: url("../images/interest-li.png") no-repeat 222px center;
+}
+.qq_interest .content ul li{
+    text-align: center;
+    padding-top: 70px;
+    float: right;
+    color: #a0a0a0;
+    border-right: 1px solid #e9e9e9;
+}
+.qq_interest .content .f1{
+    width: 95px;
+    text-indent: 15px;
+    border: none;
+}
+.qq_interest .content .f2{
+    width: 105px;
+}
+.qq_interest .content .f3{
+    width: 100px;
+}
+.qq_footer{
+    width: 100%;
+    height: 348px;
+    margin-top: 46px;
+    background: #2a2a2a;
+}
+.qq_footer .content{
+    padding-top: 35px;
+    width: 980px;
+    height: 205px;
+    margin: 0 auto;
+    border-bottom: 1px solid #979797;
+}
+.qq_footer .content .understand{
+    float: left;
+    width: 510px;
+    height: 134px;
+}
+.qq_footer .content .understand h3{
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.qq_footer .content .understand a{
+    color: #979797;
+    float: left;
+    width: 80px;
+    height: 84px;
+    margin-right: 45px;
+    padding-top: 66px;
+    box-sizing: border-box;
+}
+.qq_footer .content .understand .f1{
+    background:  url(../images/footer.png) no-repeat 3px 0;
+}
+.qq_footer .content .understand .f2{
+    background:  url(../images/footer.png) no-repeat -116px 0;
+}
+.qq_footer .content .understand .f3{
+    background:  url(../images/footer.png) no-repeat -220px 0;
+}
+.qq_footer .content .understand .f4{
+    background:  url(../images/footer.png) no-repeat -331px 0;
+}
+.qq_footer .content .security{
+    font-size: 12px;
+    color: #979797;
+    float: right;
+    width: 185px;
+    height: 133px;
+}
+.qq_footer .content .security li{
+    padding-top: 5px;
+}
+.qq_footer .content .feedback li{
+    padding-top: 5px;
+}
+.qq_footer .content .link li{
+    padding-top: 5px;
+}
+.qq_footer .content .feedback{
+    font-size: 12px;
+    width: 175px;
+    height: 111px;
+    color: #979797;
+    float: right;
+}
+.qq_footer .content .link{
+    width: 84px;
+    font-size: 12px;
+    height: 176px;
+    color: #979797;
+    float: right;
+    position: relative;
+}
+.qq_footer .content .link .link_map{
+    position: absolute;
+    top: 17px;
+    right: -55px;
+}
+.qq_footer .copyright{
+    padding-top: 12px;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+.qq_footer .copyright p{
+    color: #666;
+    margin-top: 4px;
+    font-size: 12px;
+}
+.qq_sound .bg,.qq_file .bg,.qq_interest .bg{
+    background-attachment: fixed;
+}
